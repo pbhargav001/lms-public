@@ -6,7 +6,7 @@ pipeline {
 
     environment {
 
-    DOCKERHUB_CREDENTIALS = credentials('dockeruserbhargav')
+    DOCKERHUB_CREDENTIALS = credentials('dockerbhargav')
      registry = "pbhargav01/backend"
         registryCredential = 'palisetti001'
         dockerImage = ''
